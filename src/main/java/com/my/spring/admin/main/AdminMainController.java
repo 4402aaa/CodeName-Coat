@@ -19,7 +19,8 @@ public class AdminMainController {
 	
 		ModelAndView mav=new ModelAndView();
 		String viewName=(String)request.getAttribute("viewName");
-		
+		System.out.println("master!!");
+		System.out.println("Test");
 		mav.setViewName("/admin/order/orderStatics");
 		return mav;
 		
